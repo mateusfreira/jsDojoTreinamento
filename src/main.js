@@ -1,14 +1,17 @@
 var Jogo = function(){
+	
 	var Jogador = function(id){
 		this.id = id;
 		this.pontuacao = 0;
 		this.vantagem = false;
 		this.ganhou = false;
 	};
+	
 	this.jogador1 = new Jogador(1);
 	this.jogador2 = new Jogador(2);
 	this.terminado = false;
-	this.C_FIM = "naoPode";
+	this.CONST_FIM = "Não pode pontuar, jogo terminado.";
+	
 	this.pontuar = function(jogador){
 		var acrescimo = 0;
 		if(!this.terminado){
@@ -23,18 +26,19 @@ var Jogo = function(){
 				acrescimo = 10;
 				break;
 				case 40:
-				this.checar(jogador);
+				this.victoryTrigger(jogador);
 			}
 
 			jogador.pontuacao += acrescimo;
 			return acrescimo;
 		}
 		else {
-			throw new error(this.C_FIM);
+			throw new error(this.CONST_FIM);
 		}
 
 	};
-	this.checar = function(jogador){
+	
+	this.victoryTrigger = function(jogador){
 		var adversario;
 		if (jogador.id === this.jogador1.id){
 			adversario = this.jogador2;

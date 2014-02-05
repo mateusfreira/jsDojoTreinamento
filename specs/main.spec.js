@@ -24,7 +24,7 @@ describe("O jogo deve", function() {
 	    expect(jogo.pontuar(jogo.jogador1)).toBe(10);
 	  });
 	  it("se o jogador tiver 40 pontos, checar condições do mesmo", function() {
-	    expect(jogo.checar).not.toBe(undefined);
+	    expect(jogo.victoryTrigger).not.toBe(undefined);
 	  });
   	  it("se o jogador tiver 40 pontos e outro tiver menos que 40, terminar jogo", function() {
 	    jogo.pontuar(jogo.jogador1);

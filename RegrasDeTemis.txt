@@ -1,0 +1,24 @@
+Os pontos são contados em 0, 
+						  15, 
+						  30, 
+						  40
+Se houver empate por 40 a 40.
+
+O jogador que fizer um ponto fica com a chamada "vantagem".
+
+quem tiver a vantagem e fizer mais um ponto ganha o game.
+
+
+
+Caso sobre tempo
+
+O Set: O atleta que ganhar seis games, com uma diferença mínima de dois games em relação ao adversário, vence o set. Se o placar ficar em 5 a 5, dois novos games são jogados. Com novo empate, joga-se o tie break.
+
+
+
+O tie break: É o desempate do set. Nele, cada jogada vale um ponto. Após um tenista sacar a primeira bola, os jogadores alternam dois saques. Quem fizer sete pontos ou mais, sendo eles dois de diferença, vence o set.
+
+
+
+
+Troca de lado: Os jogadores devem trocar de lado no fim do primeiro, do terceiro e de cada game ímpar subsequente de cada set e no final de cada set, a menos que o total de games naquele set seja par, caso em que a troca não é feita até o fim do primeiro game do set seguinte.
